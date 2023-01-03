@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common'
 	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './{(name)}.component.html',
-	styleUrls: ['./{(name)}.component.scss']
+	styleUrls: ['./{(name)}.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class {(name|capitalize_all)}Component {}

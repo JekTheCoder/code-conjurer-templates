@@ -7,7 +7,7 @@ import { {(name|capitalize_all)}Component } from './{(name)}.component';
 	declarations: [{(name|capitalize_all)}Component],
 	imports: [
 		CommonModule, 
-		{(name|capitalize_all)}RoutingModule
+		{(name|capitalize_all)}RoutingModule,
 	],
 })
 export class {(name|capitalize_all)}Module {}
